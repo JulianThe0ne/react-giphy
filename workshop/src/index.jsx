@@ -9,7 +9,6 @@ const rootElement = document.querySelector("#root");
 const root = createRoot(rootElement);
 root.render(<App />);
 
-
 // Functional Component
 // const Hello = (props) => {
 //   console.log(props);

@@ -2,7 +2,7 @@ import React from 'react';
 
 const GifList = () => {
   return (
-    <div>
+    <div className="gif-list">
       GifList
     </div>
   );

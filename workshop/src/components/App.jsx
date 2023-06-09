@@ -5,14 +5,23 @@
 // }
 // export default App;
 
-// rsc + tab => react functional Component
-// rcc + tab => react class Component
+// rsc + tab => react functional component
+// rcc + tab => react class component
 import React, { Component } from 'react';
+import SearchBar from './SearchBar';
+import Gif from './Gif';
+import GifList from './GifList';
 
 const App = () => {
   return (
     <div>
-
+      <div className="left-scene">
+        <SearchBar />
+        <Gif />
+      </div>
+      <div className="right-scene">
+        <GifList />
+      </div>
     </div>
   );
 };
